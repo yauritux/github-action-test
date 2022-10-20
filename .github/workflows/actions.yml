@@ -1,8 +1,8 @@
 name: Actions Workflow
 
 on: 
-  schedule:
-    - cron: "15 23 25 * *"
+  # schedule:
+  #   - cron: "15 23 25 * *"
   pull_request:
     types:
       - closed
